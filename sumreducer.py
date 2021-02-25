@@ -1,4 +1,4 @@
-  
+
 #!/usr/bin/env python
 import sys
 
@@ -13,3 +13,4 @@ for line in sys.stdin:
         (last_key, sum) = (key, sum+int(val))
 if last_key:
     print( "%s\t%s" % (last_key, sum))
+    # hello world
